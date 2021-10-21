@@ -1,10 +1,10 @@
 # epub-comic-repacker
 extract the image files from epub comic books, and repack them into zip files, fits for any epub files, expecially downloaded from vol.me or mox.moe
 
-#### build
+### build
 after "go build", the porgamme will run in CMD like mode without gui, but you can add an icon to make it look better, just follow this up:
 
-##### in Windows
+#### in Windows
 Create file epub-comic-repacker.manifest
 ```
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
@@ -30,7 +30,7 @@ rsrc -manifest epub-comic-repacker.manifest -ico vol.ico -o rsrc.syso
 go build
 ```
 
-##### in MacOS
+#### in MacOS
 prepare a PNG file in 1024p, and use the link file downside to build automatically
 
 https://gist.github.com/mholt/11008646c95d787c30806d3f24b2c844
